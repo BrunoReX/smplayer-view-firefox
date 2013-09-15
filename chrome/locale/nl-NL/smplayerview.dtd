@@ -1,0 +1,7 @@
+<!ENTITY smplayerview.view-page "Deze pagina in SMPlayer bekijken">
+<!ENTITY smplayerview.view-link "Koppeling in SMPlayer bekijken">
+<!ENTITY smplayerview.prefs-title "SMPlayer View instellingen">
+<!ENTITY smplayerview.prefs-pathtosmplayer "SMPlayer locatie">
+<!ENTITY smplayerview.prefs-description "SMPlayer View probeert de locatie van SMPlayer automatisch te herkennen. U kunt de locatie hier ook wijzigen. &#039;&#37;1&#039; wordt vervangen door de URL dat zal worden geopend.">
+<!ENTITY smplayerview.prefs-test "Test">
+<!ENTITY smplayerview.prefs-discover "Automisch herkennen">

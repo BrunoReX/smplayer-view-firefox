@@ -1,0 +1,19 @@
+#smplayerview-toolbar {
+	list-style-image: url("chrome://smplayerview/skin/icon.png");
+}
+
+#smplayerview-button {
+  list-style-image: url("chrome://smplayerview/skin/toolbar-24-enabled.png");
+}
+
+toolbar #smplayerview-button[disabled="true"] {
+  list-style-image: url("chrome://smplayerview/skin/toolbar-24-disabled.png");
+}
+
+toolbar[iconsize="small"] #smplayerview-button {
+  list-style-image: url("chrome://smplayerview/skin/toolbar-16-enabled.png");
+}
+
+toolbar[iconsize="small"] #smplayerview-button[disabled="true"] {
+  list-style-image: url("chrome://smplayerview/skin/toolbar-16-disabled.png");
+}

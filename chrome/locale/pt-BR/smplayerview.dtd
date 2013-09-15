@@ -1,0 +1,7 @@
+<!ENTITY smplayerview.view-page "Visualizar essa página com o SMPlayer">
+<!ENTITY smplayerview.view-link "Abrir link com o SMPlayer">
+<!ENTITY smplayerview.prefs-title "Opções do SMPlayer View">
+<!ENTITY smplayerview.prefs-pathtosmplayer "Caminho do SMPlayer">
+<!ENTITY smplayerview.prefs-description "O SMPlayer View tenta detectar o caminho do SMPlayer automaticamente quando a extensão é instalada. Você pode mudar o local aqui. &#039;&#37;1&#039; no caminho é substituído pela URL a ser acessada.">
+<!ENTITY smplayerview.prefs-test "Testar">
+<!ENTITY smplayerview.prefs-discover "Detectar automaticamente">

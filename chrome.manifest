@@ -1,0 +1,14 @@
+content	smplayerview	chrome/content/
+
+overlay	chrome://browser/content/browser.xul	chrome://smplayerview/content/smplayerviewOverlay.xul
+
+skin	smplayerview	classic/1.0	chrome/skin/
+
+style	chrome://global/content/customizeToolbar.xul	chrome://smplayerview/skin/skin.css
+style	chrome://browser/content/browser.xul	chrome://smplayerview/skin/skin.css
+
+locale	smplayerview	de-DE	chrome/locale/de-DE/
+locale	smplayerview	en-US	chrome/locale/en-US/
+locale	smplayerview	it	chrome/locale/it/
+locale	smplayerview	nl-NL	chrome/locale/nl-NL/
+locale	smplayerview	pt-BR	chrome/locale/pt-BR/

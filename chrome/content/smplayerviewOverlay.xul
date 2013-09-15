@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://smplayerview/skin/skin.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://smplayerview/locale/smplayerview.dtd" >
+<overlay id="smplayerviewOverlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<stringbundleset>
+		<stringbundle id="smplayerview_strings" src="chrome://smplayerview/locale/smplayerview.properties"/>
+	</stringbundleset>
+	<script type="application/x-javascript" src="smplayerview.js"/>
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton id="smplayerview-button" class="toolbarbutton-1" label="SMPlayer View" tooltiptext="&smplayerview.view-page;" oncommand="smplayerview.launch(gBrowser.currentURI.spec);"/>
+	</toolbarpalette>
+	<popup id="contentAreaContextMenu">
+		<menuitem id="smplayerview-view-page" label="&smplayerview.view-page;" oncommand="smplayerview.launch(gBrowser.currentURI.spec)"/>
+		<menuitem id="smplayerview-view-link" label="&smplayerview.view-link;" oncommand="smplayerview.launch(gContextMenu.getLinkURL())"/>
+	</popup>
+</overlay>

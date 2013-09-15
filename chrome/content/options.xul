@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://smplayerview/locale/smplayerview.dtd" >
+<prefwindow
+	title="&smplayerview.prefs-title;"
+	id="smplayerviewprefs"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<stringbundleset>
+		<stringbundle id="smplayerview_strings" src="chrome://smplayerview/locale/smplayerview.properties"/>
+	</stringbundleset>
+	<script type="application/x-javascript" src="smplayerview.js"/>
+
+	<prefpane label="&smplayerview.prefs-title;">
+		<preferences>
+			<preference id="smplayerview-smplayerpath" name="extensions.smplayerview.smplayerpath" type="string"/>
+		</preferences>
+
+		<groupbox width="500">
+			<caption label="&smplayerview.prefs-pathtosmplayer;"/>
+				<description height="40">
+					&smplayerview.prefs-description; 
+				</description>
+				<hbox>
+					<hbox width="100">
+						<label control="location" value="&smplayerview.prefs-pathtosmplayer;:"/>
+					</hbox>
+					<vbox>
+						<textbox type="text" id="location" preference="smplayerview-smplayerpath" size="75"/>
+						<hbox>
+							<button label="&smplayerview.prefs-test;" oncommand="smplayerview.test(document.getElementById('location').value);" />
+							<button label="&smplayerview.prefs-discover;" oncommand="smplayerview.discoverButton();" />
+						</hbox>
+					</vbox>
+				</hbox>
+		</groupbox>	
+
+	</prefpane>
+
+</prefwindow>

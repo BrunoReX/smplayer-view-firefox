@@ -1,0 +1,7 @@
+<!ENTITY smplayerview.view-page "View This Page in SMPlayer">
+<!ENTITY smplayerview.view-link "Open Link Target in SMPlayer">
+<!ENTITY smplayerview.prefs-title "SMPlayer View Preferences">
+<!ENTITY smplayerview.prefs-pathtosmplayer "Path to SMPlayer">
+<!ENTITY smplayerview.prefs-description "SMPlayer View tries to auto-detect the path to SMPlayer when the extension is installed. You can change the location here. &#039;&#37;1&#039; in the path is replaced by the URL to be opened.">
+<!ENTITY smplayerview.prefs-test "Test">
+<!ENTITY smplayerview.prefs-discover "Auto detect">

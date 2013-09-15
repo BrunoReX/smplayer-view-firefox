@@ -1,0 +1,7 @@
+﻿<!ENTITY smplayerview.view-page "Apri questa pagina con SMPlayer">
+<!ENTITY smplayerview.view-link "Apri il collegamento selezionato con SMPlayer">
+<!ENTITY smplayerview.prefs-title "Opzioni di SMPlayer View">
+<!ENTITY smplayerview.prefs-pathtosmplayer "Percorso all'eseguibile di SMPlayer">
+<!ENTITY smplayerview.prefs-description "SMPlayer View proverà a riconoscere automaticamente il percorso all'eseguibile di SMPlayer dopo l'installazione dell'estensione. È comunque possibile cambiare il percorso da qui. La variabile &#039;&#039;&#37;1&#039;&#039; alla fine del percorso, verrà automaticamante rimpiazzata dall'URL che si desidera venga aperto.">
+<!ENTITY smplayerview.prefs-test "Test">
+<!ENTITY smplayerview.prefs-discover "Riconoscimento automatico">

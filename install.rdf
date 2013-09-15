@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+	<Description about="urn:mozilla:install-manifest">
+		<em:id>{b400b9c9-68a6-499f-8c2f-59e4c2d320d6}</em:id>
+		<em:version>1.0</em:version>
+		<em:type>2</em:type>
+
+		<!-- Firefox version -->
+		<em:targetApplication>
+			<Description>
+				<em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+				<em:minVersion>2.0</em:minVersion>
+				<em:maxVersion>25.*</em:maxVersion>
+			</Description>
+		</em:targetApplication>
+		
+		<em:localized>
+			<Description>
+				<em:locale>de-DE</em:locale>
+				<em:name>SMPlayer View</em:name>
+				<em:description>Eine Seite in SMPlayer unter Windows anzeigen.</em:description>
+				<em:creator>Bruno Barbieri</em:creator>
+				<em:developer>Grayson Mixon</em:developer>
+				<em:developer>Lutz Issler</em:developer>
+				<em:translator>Arjan Menger</em:translator>
+				<em:translator>Bruno Barbieri</em:translator>
+				<em:translator>Giuliano Masseroni</em:translator>
+				<em:translator>Lutz Issler</em:translator>
+				<em:translator>Oink!</em:translator>
+				<em:iconURL>chrome://smplayerview/skin/icon.png</em:iconURL>
+			</Description>
+			
+			<Description>
+				<em:locale>pt-BR</em:locale>
+				<em:name>SMPlayer View</em:name>
+				<em:description>Visualize uma página no SMPlayer no Windows.</em:description>
+				<em:creator>Bruno Barbieri</em:creator>
+				<em:developer>Grayson Mixon</em:developer>
+				<em:developer>Lutz Issler</em:developer>
+				<em:translator>Arjan Menger</em:translator>
+				<em:translator>Bruno Barbieri</em:translator>
+				<em:translator>Giuliano Masseroni</em:translator>
+				<em:translator>Lutz Issler</em:translator>
+				<em:translator>Oink!</em:translator>
+				<em:iconURL>chrome://smplayerview/skin/icon.png</em:iconURL>
+			</Description>
+		</em:localized>
+
+		<em:name>SMPlayer View</em:name>
+		<em:description>View a page in SMPlayer on Windows.</em:description>
+		<em:creator>Bruno Barbieri</em:creator>
+		<em:developer>Grayson Mixon</em:developer>
+		<em:developer>Lutz Issler</em:developer>
+		<em:translator>Arjan Menger</em:translator>
+		<em:translator>Bruno Barbieri</em:translator>
+		<em:translator>Giuliano Masseroni</em:translator>
+		<em:translator>Lutz Issler</em:translator>
+		<em:translator>Oink!</em:translator>
+		<em:iconURL>chrome://smplayerview/skin/icon.png</em:iconURL>
+		<em:optionsURL>chrome://smplayerview/content/options.xul</em:optionsURL>
+	</Description>
+</RDF>

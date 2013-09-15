@@ -1,0 +1,7 @@
+<!ENTITY smplayerview.view-page "Seite in SMPlayer anzeigen">
+<!ENTITY smplayerview.view-link "Link in SMPlayer öffnen">
+<!ENTITY smplayerview.prefs-title "SMPlayer View-Einstellungen">
+<!ENTITY smplayerview.prefs-pathtosmplayer "Pfad zu SMPlayer">
+<!ENTITY smplayerview.prefs-description "SMPlayer View versucht, den Pfad zu SMPlayer automatisch zu erkennen. Sie können den Pfad hier auch manuell eingeben. &#039;&#37;1&#039; im Pfad wird durch die zu öffnende URL ersetzt.">
+<!ENTITY smplayerview.prefs-test "Test">
+<!ENTITY smplayerview.prefs-discover "automatische Erkennung">
