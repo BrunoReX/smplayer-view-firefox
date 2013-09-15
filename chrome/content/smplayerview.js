@@ -77,6 +77,13 @@ var smplayerview = {
 	launch: function (href){
 		this.smplayerPath = this.unicodeConverter.ConvertToUnicode(this.prefManager.getCharPref("extensions.smplayerview.smplayerpath"));
 		this.parseSMPlayerPath();
+		
+		// Workaround for the problem with YouTube HTTPS URLs
+		// (i.e. for some reason they only work sometimes)
+		if (href.indexOf("youtube.com") != -1){
+			href = href.replace("https://", "http://");
+		}
+		
 		this._launch(href);
 	},
 	_launch: function(href) {
