@@ -1,0 +1,7 @@
+<!ENTITY smplayerview.view-page "Wyświetl tę stronę w SMPlayer">
+<!ENTITY smplayerview.view-link "Otwórz docelowy link w SMPlayer">
+<!ENTITY smplayerview.prefs-title "Opcje SMPlayer">
+<!ENTITY smplayerview.prefs-pathtosmplayer "Ścieżka do SMPlayer">
+<!ENTITY smplayerview.prefs-description "SMPlayer View spróbuje automatycznie wykryć scieżkę do SMPlayer, gdy rozszerzenie jest zainstalowane. Możesz tutaj zmienić lokalizację. &#039;&#37;1&#039; w ścieżce zastępuje adres URL, który ma zostać otwarty.">
+<!ENTITY smplayerview.prefs-test "Testuj">
+<!ENTITY smplayerview.prefs-discover "Wykryj automatycznie">
