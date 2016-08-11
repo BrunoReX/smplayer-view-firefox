@@ -41,6 +41,22 @@
 				<em:translator>Oink!</em:translator>
 				<em:iconURL>chrome://smplayerview/skin/icon.png</em:iconURL>
 			</Description>
+			
+			<Description>
+				<em:locale>pl</em:locale>
+				<em:name>SMPlayer View</em:name>
+				<em:description>Wyświetl stronę w odtwarzaczu SMPlayer w systemie Windows.</em:description>
+				<em:creator>Bruno Barbieri</em:creator>
+				<em:developer>Grayson Mixon</em:developer>
+				<em:developer>Lutz Issler</em:developer>
+				<em:translator>Arjan Menger</em:translator>
+				<em:translator>Bruno Barbieri</em:translator>
+				<em:translator>Giuliano Masseroni</em:translator>
+				<em:translator>Lutz Issler</em:translator>
+				<em:translator>Oink!</em:translator>
+				<em:translator>hawkeye116477</em:translator>
+				<em:iconURL>chrome://smplayerview/skin/icon.png</em:iconURL>
+			</Description>
 
 			<Description>
 				<em:locale>pt-BR</em:locale>

@@ -27,5 +27,6 @@ Dutch translation by Arjan Menger
 English translation by Lutz Issler
 German translation by Lutz Issler
 Italian translation by Giuliano Masseroni
+Polish translation by hawkeye116477
 Portuguese (Brazil) translation by Bruno Barbieri
 Spanish translation by Oink!
